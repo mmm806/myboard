@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS "user" (
                         email VARCHAR(255) NOT NULL,
                         name VARCHAR(50) NOT NULL,
                         password VARCHAR(500) NOT NULL,
-                        redate TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                        regdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS user_role (
